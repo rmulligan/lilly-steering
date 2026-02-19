@@ -1,0 +1,94 @@
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local data
+*.db
+*.sqlite
+
+# Worktrees
+.worktrees/
+.worktrees
+
+# Audio narration files (generated)
+audio/*.wav
+audio/podcast_*.mp3
+
+# macOS resource forks
+._*
+
+# Claude Code local config
+.claude/
+.claude-backup/
+
+# Letta agent session files
+.letta/claude/session-*.json
+.letta/claude/conversations.json
+
+# Claude Flow runtime
+.claude-flow/
+.swarm/
+.mcp.json
+
+# Environment files (all variants)
+.env.*
+
+# Runtime state files
+config/*_state.json
+visualizer/state.json
+visualizer/stream/
+
+# Audio archives (large files)
+audio/cycle_archives/
+music/
+
+# Export data
+exports/
+
+# User-specific steering vectors
+config/vectors/self/
+
+# Personal documents directory
+/personal/
